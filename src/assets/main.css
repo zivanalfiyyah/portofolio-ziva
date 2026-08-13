@@ -19,3 +19,13 @@
 .dark .bg-hero-gradient {
   background: linear-gradient(135deg, #161320, #1a1826 40%, #211f2b);
 }
+
+/* Nyambungin transisi dari gradient Hero ke background body di bawahnya */
+body {
+  background: linear-gradient(180deg, #DFBAF7 0%, #fffdf9 380px);
+  background-repeat: no-repeat;
+}
+.dark body {
+  background: linear-gradient(180deg, #211f2b 0%, #1a1826 380px);
+  background-repeat: no-repeat;
+}

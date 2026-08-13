@@ -1,0 +1,30 @@
+export const projects = [
+  {
+    name: "toms",
+    title: "TOMS — Buku Digital",
+    desc: "Aplikasi manajemen buku digital full-stack: autentikasi, role permission, dan manajemen kategori/halaman. Backend & frontend di-deploy terpisah, database MySQL online.",
+    stack: "Vue · Laravel · MySQL · Sanctum",
+    tags: ["Vue 3", "Laravel", "MySQL", "Railway"],
+    color: "yellow",
+    status: "Live",
+    image: "/images/toms-preview.png",
+    demoLink: "https://comfortable-spirit-production-efef.up.railway.app",
+    repoLink: "https://github.com/zivanalfiyyah/toms",
+  },
+  {
+    name: "toko-online",
+    title: "Toko Online",
+    desc: "CRUD produk dengan autentikasi Passport.",
+    stack: "Vue · Laravel · Pinia",
+    tags: ["Vue", "Laravel", "Pinia"],
+    color: "mint",
+  },
+  {
+    name: "event-api",
+    title: "Event API",
+    desc: "REST API manajemen event, role-based access.",
+    stack: "Laravel · Passport",
+    tags: ["Laravel", "Passport"],
+    color: "lavender",
+  },
+];

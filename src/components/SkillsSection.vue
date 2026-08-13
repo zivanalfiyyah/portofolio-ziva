@@ -15,7 +15,7 @@ const badgeClasses = {
 </script>
 
 <template>
-  <section id="skills" class="px-12 py-24 max-w-2xl">
+  <section id="skills" class="px-12 py-24 max-w-2xl mx-auto">
     <p class="font-mono text-sm text-slate-300 dark:text-slate-600 mb-6">// journal belajar</p>
     <div class="flex flex-col gap-5">
       <div v-for="item in versions" :key="item.v" class="flex gap-4">
