@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-mint-light: #B8FFD0;
+  --color-mint: #3fae72;
+  --color-mint-dark: #2d8557;
+  --color-lavender-light: #DFBAF7;
+  --color-lavender: #9b6fd6;
+  --color-peach-light: #FFE6CC;
+  --color-peach: #d99a5c;
+  --color-yellow-light: #ECFFC1;
+  --color-yellow: #a8b545;
+}
+
+.bg-hero-gradient {
+  background: linear-gradient(135deg, #B8FFD0, #ECFFC1 40%, #FFE6CC 70%, #DFBAF7);
+}
+.dark .bg-hero-gradient {
+  background: linear-gradient(135deg, #161320, #1a1826 40%, #211f2b);
+}
