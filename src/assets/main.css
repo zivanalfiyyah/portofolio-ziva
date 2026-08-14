@@ -13,19 +13,17 @@
   --color-yellow: #a8b545;
 }
 
-.bg-hero-gradient {
-  background: linear-gradient(135deg, #B8FFD0, #ECFFC1 40%, #FFE6CC 70%, #DFBAF7);
-}
-.dark .bg-hero-gradient {
-  background: linear-gradient(135deg, #161320, #1a1826 40%, #211f2b);
+/* Pasang Gradient yang di Gambar Kamu ke Seluruh Layar */
+body {
+  min-height: 100vh;
+  /* Gradient diagonal dari Hijau -> Kuning -> Pink/Lavender */
+  background: linear-gradient(135deg, #B8FFD0 0%, #ECFFC1 35%, #FFE6CC 70%, #DFBAF7 100%);
+  background-attachment: fixed; /* KUNCI UTAMA: Bikin warna gradient nempel terus pas di-scroll! */
 }
 
-/* Nyambungin transisi dari gradient Hero ke background body di bawahnya */
-body {
-  background: linear-gradient(180deg, #DFBAF7 0%, #fffdf9 380px);
-  background-repeat: no-repeat;
-}
+/* Untuk Mode Gelap */
 .dark body {
-  background: linear-gradient(180deg, #211f2b 0%, #1a1826 380px);
-  background-repeat: no-repeat;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f1715 0%, #16181f 40%, #1c1826 70%, #1a1226 100%);
+  background-attachment: fixed;
 }
